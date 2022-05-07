@@ -7,6 +7,12 @@ public class Technician {
     private String phone;
     private String region;
 
+    public Technician(String name, String phone, String region) {
+        this.name = name;
+        this.phone = phone;
+        this.region = region;
+    }
+
     public String getName() {
         return name;
     }
